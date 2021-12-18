@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>  
+<view name="system">
+
+<carousel name="systemcarousel">
+<zIndex>90</zIndex>	      
+<type>vertical_wheel</type>
+<pos>0.060 0</pos>
+<size>1 1</size>
+<logoScale>1.45</logoScale>
+<logoSize>0.100 0.260</logoSize>
+<color>00000000</color>
+<maxLogoCount>9</maxLogoCount>
+<logoRotation>11</logoRotation>
+<logoRotationOrigin>2.90 0.5</logoRotationOrigin>
+<logoAlignment>left</logoAlignment> 
+<defaultTransition>instant</defaultTransition> 
+<zIndex>535</zIndex>     
+</carousel>
+
+<text name="systemInfo">
+<visible>true</visible>
+<systemInfoDelay>300</systemInfoDelay>
+<pos>0.370  0.400</pos>
+<size>0.420 0.35</size>
+<fontSize>0.04</fontSize>
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<backgroundColor>00000000</backgroundColor>
+<color>06c6fd</color>
+<glowColor>000000</glowColor>
+<glowSize>1</glowSize>
+<reflexion>0.30 0.0</reflexion>
+<rotation>0</rotation> 
+<zIndex>535</zIndex>
+<storyboard repeat="1"> 
+<animation property="opacity" from="0" to="10" begin="0" duration="950" mode="easeIn"/> 
+<animation property="y" from="0.400" to="0.500" begin="0" duration="450" mode="easeOut"/>
+</storyboard>
+</text>
+
+<sound name="bgsound">
+<path>./art/sistemas/musica/${system.theme}.ogg</path>
+<path>./art/sistemas/musica/${system.theme}.wav</path>
+<path>./art/sistemas/musica/${system.theme}.mp3</path>
+</sound>
+
+
+<image name="background" extra="true">
+<tile>false</tile>
+<color>ffffff</color>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/logoBfondo.png</path>
+<zIndex>434</zIndex>
+</image>
+
+<image name="logobatocera" extra="true">
+<tile>false</tile>
+<visible>true</visible>
+<color>ffffff</color>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/logoB batocera.png</path>
+<zIndex>437</zIndex>
+</image>
+
+<image name="frenteB" extra="true">
+<tile>false</tile>
+<color>ffffff</color>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/logoBcarrusel.png</path>
+<zIndex>438</zIndex>
+</image>
+
+<image name="background3" extra="true">
+<tile>false</tile>
+<visible>true</visible>
+<color>000000</color>
+<size>1 1</size>
+<pos>0.0700 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/recorte blanco.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>31</zIndex>
+</image> 
+
+
+<image name="lineaAzulUp" extra="true">
+<tile>false</tile>
+<visible>true</visible>
+<color>06c6fd</color>
+<pos>0 0.500</pos>
+<size>1 0.005</size>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/recorte blanco.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>436</zIndex>
+<storyboard repeat="1"> 
+<animation property="y" from="0.500" to="-1.000" begin="0" duration="3750" mode="easeOut"/>
+</storyboard>
+</image>
+
+
+
+<image name="lineaAzulDawn" extra="true">
+<tile>false</tile>
+<visible>true</visible>
+<color>06c6fd</color>
+<pos>0 0.490</pos>
+<size>1 0.005</size>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/recorte blanco.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>436</zIndex>
+<storyboard repeat="1"> 
+<animation property="y" from="0.490" to="1.000" begin="0" duration="0800" mode="easeOut"/>
+</storyboard>
+</image>
+
+
+
+
+<image name="logosistema" extra="true">
+<visible>false</visible>
+<pos>0.540 0.125</pos>
+<maxSize>0.235 0.235</maxSize>
+<color>00000000</color>
+<path>./art/sistemas/logosimples/${system.theme}.png</path>
+<zIndex>99</zIndex>
+</image>
+ 
+
+<video name="backgroundvideo1" extra="true">
+<visible>true</visible>
+<path>{random}</path>  
+<rotation>0</rotation>  
+<roundCorners>0</roundCorners>      
+<maxSize>0.3070 0.3010</maxSize>
+<pos>0.800 0.190</pos>
+<origin>0.5 0.5</origin>
+<delay>0.07</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+ <linearSmooth>true</linearSmooth>
+<color>FFFFFF</color>
+ <effect>none</effect>
+<zIndex>438</zIndex>
+</video>
+
+
+<image name="consola,controles,personajea,personajeb,controles,consola,box10,box2,box1" extra="true">
+<visible>false</visible>
+<color>FFFFFFFF</color>
+</image>
+    
+<image name="personaje" extra="true">
+<maxSize>0.130 0.465</maxSize>
+<pos>0.350 0.510</pos>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>292</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<maxSize>0.130 0.465</maxSize>
+<pos>0.350 0.510</pos>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>290</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<maxSize>0.130 0.465</maxSize>
+<pos>0.350 0.510</pos>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+
+<image name="personaje4" extra="true">
+<maxSize>0.260 0.850</maxSize>
+<pos>0.0 0.140</pos>
+<path>./art/sistemas/character2/default.png</path>
+<path>./art/sistemas/character2/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+
+<image name="personaje5" extra="true">
+<maxSize>0.260 0.930</maxSize>
+<pos>0.510 0.030</pos>
+<path>./art/sistemas/character3/default.png</path>
+<path>./art/sistemas/character3/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+
+<helpsystem name="help">
+<visible>false</visible>
+<textColor>00000000</textColor>
+<iconColor>00000000</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.10 0.980</pos>
+<zIndex>90</zIndex>
+</helpsystem>
+      
+    
+<text name="logoText">
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>${baseColor}</color>
+<forceUppercase>true</forceUppercase>
+</text>
+<image name="logo">
+<path>./art/sistemas/silverring/${system.theme}.png</path>
+<path>./${system.theme}/art/system-${lang}.png</path>
+<path>./${system.theme}/art/system-${lang}.svg</path>
+</image>
+
+
+<text name="manufacturerbigbox,fullNamebigbox" extra="true">
+<visible>false</visible>
+<color>FFFFFFFF</color>
+</text>
+
+<text name="sys_info" extra="true">
+<visible>false</visible>	
+<color>00000000</color>
+</text>
+
+
+<text name="sys_description" extra="true">
+<visible>false</visible>
+<pos>0.187 0.810</pos>
+<size>0.800 0.02</size>
+<text></text>
+<fontSize>0.013</fontSize>
+<fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
+<color>ffffff</color>
+<glowColor>000000</glowColor>
+<glowSize>1</glowSize>
+<forceUppercase>true</forceUppercase>
+<zIndex>195</zIndex>
+</text>
+</view>
+
+
+
+<view name="basic, detailed, grid, carousel, gamecarousel">
+<image name="personaje" extra="true">
+<maxSize>0.130 0.465</maxSize>
+<pos>0.350 0.510</pos>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>292</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<maxSize>0.130 0.465</maxSize>
+<pos>0.350 0.510</pos>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>290</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<maxSize>0.130 0.465</maxSize>
+<pos>0.350 0.510</pos>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+
+<image name="personaje4" extra="true">
+<maxSize>0.260 0.850</maxSize>
+<pos>0.0 0.140</pos>
+<path>./art/sistemas/character2/default.png</path>
+<path>./art/sistemas/character2/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+
+<image name="personaje5" extra="true">
+<maxSize>0.260 0.930</maxSize>
+<pos>0.510 0.030</pos>
+<path>./art/sistemas/character3/default.png</path>
+<path>./art/sistemas/character3/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+</view>
+</theme> 

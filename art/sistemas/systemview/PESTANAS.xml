@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>  
+<view name="system">
+<carousel name="systemcarousel">
+<zIndex>90</zIndex>	      
+<type>vertical</type>
+<pos>0.410 0</pos>
+<size>1 1</size>
+<logoScale>1.05</logoScale>
+<logoSize>0.100 0.260</logoSize>
+<color>00000000</color>
+<maxLogoCount>09</maxLogoCount>
+<logoRotation>8</logoRotation>
+<logoRotationOrigin>3.50 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment> 
+<defaultTransition>instant</defaultTransition>      
+</carousel>
+
+
+<text name="systemInfo">
+<visible>false</visible>
+<systemInfoDelay>300</systemInfoDelay>
+<pos>0.675  0.730</pos>
+<size>0.420 0.35</size>
+<fontSize>0.02</fontSize>
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<backgroundColor>00000000</backgroundColor>
+<color>00000000</color>
+<glowColor>ffffff</glowColor>
+<glowSize>1</glowSize>
+<reflexion>0.0 0.0</reflexion>
+<rotation>0</rotation> 
+<zIndex>65</zIndex>
+</text>
+
+<sound name="bgsound">
+<path>./art/sistemas/musica/${system.theme}.ogg</path>
+<path>./art/sistemas/musica/${system.theme}.wav</path>
+<path>./art/sistemas/musica/${system.theme}.mp3</path>
+</sound>
+
+
+<image name="background" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/gris0.png</path>
+<zIndex>30</zIndex>
+</image>
+
+<image name="fondo1" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/gris2.png</path>
+<zIndex>43</zIndex>
+</image>
+
+<image name="fondo2" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/gris1.png</path>
+<zIndex>45</zIndex>
+</image>
+
+<image name="background3" extra="true">
+<tile>false</tile>
+<visible>false</visible>
+<color>00000000</color>
+</image> 
+
+<image name="marcosnap" extra="true">
+<tile>false</tile>
+<pos>0.2560 0.0860</pos>
+<size>0.5608 0.8490</size>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/marcovideo.png</path>
+<zIndex>40</zIndex>
+</image>
+
+<video name="backgroundvideo1" extra="true">
+<visible>true</visible>
+<path>{random}</path>  
+<rotation>0</rotation>  
+<roundCorners>0</roundCorners>      
+<pos>1 0.1829</pos>
+<size>0.4988 0.6560</size>
+<origin>0 0</origin>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+ <linearSmooth>true</linearSmooth>
+<color>FFFFFF</color>
+<zIndex>42</zIndex>
+<effect>none</effect>
+<storyboard> 
+<animation property="x" from="1" to="0.3200" begin="0" duration="810" mode="easeOut"/>
+</storyboard>
+</video>
+
+
+
+<image name="ovalotime" extra="true">
+<tile>false</tile>
+<pos>-0.1275 0.0961</pos>
+<size>0.1978 0.1500</size>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/ovalotime.png</path>
+<zIndex>40</zIndex>
+<storyboard> 
+<animation property="x" from="-0.1275 " to="0.0095" begin="200" duration="950" mode="easeOut"/>
+</storyboard>
+</image>
+
+<image name="ovaloplayers" extra="true">
+<tile>false</tile>
+<pos>-0.1275 0.4161</pos>
+<size>0.1978 0.1500</size>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/ovaloplayers.png</path>
+<zIndex>40</zIndex>
+<storyboard> 
+<animation property="x" from="-0.1275 " to="0.0095" begin="300" duration="950" mode="easeOut"/>
+</storyboard>
+</image>
+
+<image name="ovalogenero" extra="true">
+<tile>false</tile>
+<pos>-0.1275 0.7461</pos>
+<size>0.1978 0.1500</size>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/ovalogenero.png</path>
+<zIndex>40</zIndex>
+<storyboard> 
+<animation property="x" from="-0.1275 " to="0.0095" begin="400" duration="1150" mode="easeOut"/>
+</storyboard>
+</image>
+
+
+<image name="controles,consola,box10,box2,box1" extra="true">
+<visible>false</visible>
+<color>FFFFFFFF</color>
+</image>
+    
+<image name="personaje" extra="true">
+<maxSize>0.130 0.465</maxSize>
+<pos>0.350 0.510</pos>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>292</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<maxSize>0.130 0.465</maxSize>
+<pos>0.350 0.510</pos>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>290</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<maxSize>0.130 0.465</maxSize>
+<pos>0.350 0.510</pos>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+
+<image name="personaje4" extra="true">
+<maxSize>0.260 0.850</maxSize>
+<pos>0.0 0.140</pos>
+<path>./art/sistemas/character2/default.png</path>
+<path>./art/sistemas/character2/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+
+<image name="personaje5" extra="true">
+<maxSize>0.260 0.930</maxSize>
+<pos>0.510 0.030</pos>
+<path>./art/sistemas/character3/default.png</path>
+<path>./art/sistemas/character3/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+
+<helpsystem name="help">
+<visible>false</visible>
+<textColor>000000</textColor>
+<iconColor>000000</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.02 0.960</pos>
+<zIndex>90</zIndex>
+</helpsystem>
+      
+    
+<text name="logoText">
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>${baseColor}</color>
+<forceUppercase>true</forceUppercase>
+</text>
+<image name="logo">
+<path>./art/sistemas/silverring/${system.theme}.png</path>
+<path>./${system.theme}/art/system-${lang}.png</path>
+<path>./${system.theme}/art/system-${lang}.svg</path>
+</image>
+
+
+<text name="manufacturerbigbox,fullNamebigbox" extra="true">
+<visible>false</visible>
+<color>FFFFFFFF</color>
+</text>
+
+<text name="sys_info" extra="true">
+<visible>false</visible>	
+<color>00000000</color>
+</text>
+
+
+<text name="sys_description" extra="true">
+<visible>true</visible>
+<pos>1 0.810</pos>
+<size>0.460 0.02</size>
+<text></text>
+<fontSize>0.013</fontSize>
+<fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
+<color>ffffff</color>
+<glowColor>00000000</glowColor>
+<glowSize>1</glowSize>
+<forceUppercase>true</forceUppercase>
+<zIndex>195</zIndex>
+<storyboard> 
+<animation property="x" from="1" to="0.330" begin="100" duration="1550" mode="easeOut"/>
+</storyboard>
+</text>
+
+<text name="systemInfoEx" extra="true">
+ <visible>true</visible>
+<text lang="es"> <!--español-->
+Última partida : 
+{binding:lastPlayedDate}
+</text>
+<text lang="es_MX"> <!--español mx-->
+Última partida : 
+{binding:lastPlayedDate}
+</text>
+<text lang="fr"> <!--frances-->
+Dernier match : 
+{binding:lastPlayedDate}
+</text>
+<text lang="en"> <!--ingles-->
+Last game : 
+{binding:lastPlayedDate}
+</text>
+<text lang="ar"> <!--arabe-->
+أخر لعبة : 
+{binding:lastPlayedDate}
+</text>
+<text lang="ca"> <!--catalan-->
+darrera partida : 
+{binding:lastPlayedDate}
+</text>
+<text lang="cy"> <!--gales-->
+Gêm olaf : 
+{binding:lastPlayedDate}
+</text>
+<text lang="de"> <!--aleman-->
+Letztes Spiel : 
+{binding:lastPlayedDate}
+</text>
+<text lang="el"> <!--griego-->
+Τελευταίο παιχνίδι : 
+{binding:lastPlayedDate}
+</text>
+<text lang="eu"> <!--euskera-->
+Azken partida : 
+{binding:lastPlayedDate}
+</text>
+<text lang="hu"> <!--hungaro-->
+Utolsó játék : 
+{binding:lastPlayedDate}
+</text>
+<text lang="it"> <!--italiano-->
+Ultimo gioco : 
+{binding:lastPlayedDate}
+</text>
+<text lang="oc"> <!--italiano-->
+Ultimo gioco : 
+{binding:lastPlayedDate}
+</text>
+<text lang="ja"> <!--japones-->
+最後の試合 : 
+{binding:lastPlayedDate}
+</text>
+<text lang="ko"> <!--coreano-->
+마지막 게임 : 
+{binding:lastPlayedDate}
+</text>
+<text lang="nl"> <!--neerlandes-->
+Laatste spel : 
+{binding:lastPlayedDate}
+</text>
+<text lang="nn"> <!--noruego-->
+Siste spill : 
+{binding:lastPlayedDate}
+</text>
+<text lang="se"> <!--noruego-->
+Siste spill : 
+{binding:lastPlayedDate}
+</text>
+<text lang="pl"> <!--polaco-->
+Ostatnia gra : 
+{binding:lastPlayedDate}
+</text>
+<text lang="pr"> <!--portuges-->
+Ultimo jogo : 
+{binding:lastPlayedDate}
+</text>
+<text lang="pt_BR"> <!--portuges brasil-->
+Ultimo jogo : 
+{binding:lastPlayedDate}
+</text>
+<text lang="ru"> <!--ruso-->
+Последняя игра : 
+{binding:lastPlayedDate}
+</text>
+<text lang="tr"> <!--turko-->
+Son Oyun : 
+{binding:lastPlayedDate}
+</text>
+<text lang="uk"> <!--ucraniano-->
+Остання гра : 
+{binding:lastPlayedDate}
+</text>
+<text lang="zh"> <!--chino-->
+最后一盘游戏 : 
+{binding:lastPlayedDate}
+</text>
+<verticalAlignment>center</verticalAlignment>
+          <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
+        <fontSize>0.019</fontSize>
+        <pos>-1.035 0.030</pos>
+        <size>0.48 0.28</size>
+        <zIndex>50</zIndex>
+        <color>ffffff</color>
+        <glowColor>00000000</glowColor>
+        <glowSize>1</glowSize>
+        <storyboard> 
+<animation property="x" from="-1" to="0.035" begin="0" duration="950" mode="easeOut"/>
+</storyboard>
+</text>
+      
+      
+<text name="systemInfoEx2" extra="true">
+ <visible>true</visible>
+<text lang="es"> <!--español-->
+Mas Jugado : 
+{binding:mostPlayed}
+</text>
+ <text lang="es_MX"> <!--español mx-->
+Mas Jugado : 
+{binding:mostPlayed}
+</text>
+<text lang="fr"> <!--frances-->
+Le plus joué : 
+{binding:mostPlayed}
+</text>
+<text lang="en"> <!--ingles-->
+Most Played : 
+{binding:mostPlayed}
+</text>
+<text lang="ar"> <!--arabe-->
+الأكثر لعبا  : 
+{binding:mostPlayed}
+</text>
+<text lang="ca"> <!--catalan-->
+Mas Jugat : 
+{binding:mostPlayed}
+</text>
+<text lang="cy"> <!--gales-->
+Wedi chwarae fwyaf : 
+{binding:mostPlayed}
+</text>
+<text lang="de"> <!--aleman-->
+Meist gespielt : 
+{binding:mostPlayed}
+</text>
+<text lang="el"> <!--griego-->
+Τα περισσότερα παίζονται : 
+{binding:mostPlayed}
+</text>
+<text lang="eu"> <!--euskera-->
+Jokatu Gehienak : 
+{binding:mostPlayed}
+</text>
+<text lang="hu"> <!--hungaro-->
+Legtöbbet játszott : 
+{binding:mostPlayed}
+</text>
+<text lang="it"> <!--italiano-->
+Più giocato : 
+{binding:mostPlayed}
+</text>
+<text lang="oc"> <!--italiano-->
+Più giocato : 
+{binding:mostPlayed}
+</text>
+<text lang="ja"> <!--japones-->
+最もプレイされた : 
+{binding:mostPlayed}
+</text>
+<text lang="ko"> <!--coreano-->
+대부분의 플레이 : 
+{binding:mostPlayed}
+</text>
+<text lang="nl"> <!--neerlandes-->
+Meest gespeeld : 
+{binding:mostPlayed}
+</text>
+<text lang="nn"> <!--noruego-->
+Mest spilt : 
+{binding:mostPlayed}
+</text>
+<text lang="se"> <!--noruego-->
+Mest spilt : 
+{binding:mostPlayed}
+</text>
+<text lang="pl"> <!--polaco-->
+Najczęściej grane : 
+{binding:mostPlayed}
+</text>
+<text lang="pr"> <!--portuges-->
+Mais tocado : 
+{binding:mostPlayed}
+</text>
+<text lang="pt_BR"> <!--portuges brasil-->
+Mais tocado : 
+{binding:mostPlayed}
+</text>
+<text lang="ru"> <!--ruso-->
+Самая популярная : 
+{binding:mostPlayed}
+</text>
+<text lang="tr"> <!--turko-->
+En çok oynanan : 
+{binding:mostPlayed}
+</text>
+<text lang="uk"> <!--ucraniano-->
+Найіграніші : 
+{binding:mostPlayed}
+</text>
+<text lang="zh"> <!--chino-->
+播放次数最多: 
+{binding:
+mostPlayed}
+</text>
+<verticalAlignment>center</verticalAlignment>
+          <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
+       <fontSize>0.019</fontSize>
+        <pos>0.033 0.350</pos>
+        <size>0.12 0.28</size>
+        <zIndex>50</zIndex>
+        <color>ffffff</color>
+        <glowColor>00000000</glowColor>
+        <glowSize>1</glowSize>
+         <storyboard> 
+<animation property="x" from="-1" to="0.035" begin="0" duration="950" mode="easeOut"/>
+</storyboard>
+</text>
+
+      
+<text name="systemInfoEx3" extra="true">
+ <visible>true</visible>
+<text lang="es"> <!--español-->
+Total De Juegos : 
+
+    {binding:total}
+</text>
+ <text lang="es_MX"> <!--español mx-->
+Total De Juegos : 
+
+    {binding:total}
+</text>
+<text lang="fr"> <!--frances-->
+Total de jeux : 
+
+    {binding:total}
+</text>
+<text lang="en"> <!--ingles-->
+Total Games : 
+
+    {binding:total}
+</text>
+<text lang="ar"> <!--arabe-->
+إجمالي الألعاب : 
+
+    {binding:total}
+</text>
+<text lang="ca"> <!--catalan-->
+Total D'Jocs : 
+
+    {binding:total}
+</text>
+<text lang="cy"> <!--gales-->
+Cyfanswm y Gemau : 
+
+    {binding:total}
+</text>
+<text lang="de"> <!--aleman-->
+Gesamtspiele : 
+
+    {binding:total}
+</text>
+<text lang="el"> <!--griego-->
+Σύνολο παιχνιδιών : 
+
+    {binding:total}
+</text>
+<text lang="eu"> <!--euskera-->
+Total Games : 
+
+    {binding:total}
+</text>
+<text lang="hu"> <!--hungaro-->
+Összes játék : 
+
+    {binding:total}
+</text>
+<text lang="it"> <!--italiano-->
+Giochi totali : 
+
+    {binding:total}
+</text>
+<text lang="oc"> <!--italiano-->
+Giochi totali : 
+
+    {binding:total}
+</text>
+<text lang="ja"> <!--japones-->
+トータルゲーム : 
+
+    {binding:total}
+</text>
+
+<text lang="ko"> <!--coreano-->
+총 게임 : 
+
+    {binding:total}
+</text>
+<text lang="nl"> <!--neerlandes-->
+Totaal aantal spellen : 
+
+    {binding:total}
+</text>
+<text lang="nn"> <!--noruego-->
+Totalt antall spill : 
+
+    {binding:total}
+</text>
+<text lang="se"> <!--noruego-->
+Totalt antall spill : 
+
+    {binding:total}
+</text>
+<text lang="pl"> <!--polaco-->
+Total Games : 
+
+    {binding:total}
+</text>
+<text lang="pr"> <!--portuges-->
+Total de jogos : 
+
+    {binding:total}
+</text>
+<text lang="pt_BR"> <!--portuges brasil-->
+Total de jogos : 
+
+    {binding:total}
+</text>
+<text lang="ru"> <!--ruso-->
+Всего игр : 
+
+    {binding:total}
+</text>
+<text lang="tr"> <!--turko-->
+Toplam Oyun : 
+
+    {binding:total}
+</text>
+<text lang="uk"> <!--ucraniano-->
+Всього ігор : 
+
+    {binding:total}
+</text>
+<text lang="zh"> <!--chino-->
+游戏总数: 
+
+    {binding:total}
+</text>
+<verticalAlignment>center</verticalAlignment>
+          <fontPath>./art/sistemas/fuentes/AppleGothic.ttf</fontPath>
+        <fontSize>0.017</fontSize>
+        <pos>0.035 0.670</pos>
+        <size>0.48 0.28</size>
+        <zIndex>50</zIndex>
+        <color>ffffff</color>
+        <glowColor>00000000</glowColor>
+        <glowSize>1</glowSize>
+         <storyboard> 
+<animation property="x" from="-1" to="0.035" begin="0" duration="1150" mode="easeOut"/>
+</storyboard>
+      </text>
+
+<image name="consola,controles" extra="true">
+<visible>false</visible>
+</image>
+</view>
+
+
+
+<view name="basic, detailed, grid, carousel, gamecarousel">
+<image name="personaje" extra="true">
+<maxSize>0.130 0.465</maxSize>
+<pos>0.350 0.510</pos>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>292</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<maxSize>0.130 0.465</maxSize>
+<pos>0.350 0.510</pos>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>290</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<maxSize>0.130 0.465</maxSize>
+<pos>0.350 0.510</pos>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+
+<image name="personaje4" extra="true">
+<maxSize>0.260 0.850</maxSize>
+<pos>0.0 0.140</pos>
+<path>./art/sistemas/character2/default.png</path>
+<path>./art/sistemas/character2/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+
+<image name="personaje5" extra="true">
+<maxSize>0.260 0.930</maxSize>
+<pos>0.510 0.030</pos>
+<path>./art/sistemas/character3/default.png</path>
+<path>./art/sistemas/character3/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>291</zIndex>
+</image>
+</view>
+</theme> 
