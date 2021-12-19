@@ -68,7 +68,7 @@
 <rotation>0</rotation>  
 <roundCorners>0</roundCorners>   
 <pos>0.225 0.640</pos>   
-<maxSize>0.234 0.663</maxSize>
+<maxSize>0.234 0.363</maxSize>
 <origin>0.5 0.5</origin>
 <alignment>vertical</alignment>
 <delay>0</delay>
