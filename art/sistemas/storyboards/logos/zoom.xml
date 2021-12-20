@@ -11,6 +11,7 @@
 </storyboard>
 <linearSmooth>true</linearSmooth>
 <storyboard event="activate">
+<animation property="scale" to="1.4" duration="700" mode="easeOut" autoreverse="false" repeat="1"/>
 </storyboard>
 </image>
 
@@ -26,6 +27,7 @@
 </storyboard>
 <linearSmooth>true</linearSmooth>
 <storyboard event="activate">
+<animation property="scale" to="1.4" duration="700" mode="easeOut" autoreverse="false" repeat="1"/>
 </storyboard>
 </text>
 </view>

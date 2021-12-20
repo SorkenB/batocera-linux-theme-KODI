@@ -355,6 +355,7 @@
 
 <!-- MOVIMIENTO EN LOGO SELECCIONADO DEL CARRUSEL EN SISTEMA-->
 <subset name="activar-movimiento-en-logo-de-carrusel" displayName="${activar-movimiento-en-logo-de-carruselName}">
+<include name="˙ZOOM" displayName="${si}">./art/sistemas/storyboards/logos/zoom.xml</include>
 <include name="˙NINGUNO" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel NO.xml</include>
 <include name="˙360" displayName="${si}">./art/sistemas/storyboards/logos/360.xml</include>
 <include name="˙ESTIRAR 2" displayName="${si}">./art/sistemas/storyboards/logos/estirar2.xml</include>

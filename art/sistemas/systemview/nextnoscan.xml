@@ -72,11 +72,39 @@
 <maxSize>0.235 0.235</maxSize>
 <color>ffffff</color>
 <path>./art/sistemas/logosimples/${system.theme}.png</path>
-<zIndex>99</zIndex>
-<storyboard>
-<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
-<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
-<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>   
+<zIndex>97</zIndex>
+<storyboard repeat="1">
+<animation property="color" from="ffffff" to="ffffff00" duration="1550" mode="linear"/>
+</storyboard>
+</image>
+
+
+
+<image name="logosistema2" extra="true">
+<pos>0.120 0.120</pos>
+<maxSize>0.275 0.225</maxSize>
+<color>ffffff</color>
+<path>./art/sistemas/logosimples/${system.theme}.png</path> 
+<alignment>center</alignment> 
+<zIndex>98</zIndex>
+<storyboard repeat="1">
+<animation property="scale" to="1.0" duration="900" mode="easeOut" autoreverse="true" repeat="1"/>
+<animation property="opacity" from="0" to="1" duration="1150" mode="easeIn"/>
+
+<animation property="color" from="ffffff" to="ffffff00" duration="2550" mode="linear"/>
+</storyboard>
+</image>
+
+<image name="logosistema3" extra="true">
+<pos>0.100 0.115</pos>
+<maxSize>0.3005 0.240</maxSize>
+<color>ffffff</color>
+<path>./art/sistemas/logosimples/${system.theme}.png</path> 
+<alignment>center</alignment> 
+<zIndex>98</zIndex>
+<storyboard repeat="1">
+<animation property="scale" to="1.0" duration="1200" mode="easeOut" autoreverse="true" repeat="1"/>
+<animation property="opacity" from="0" to="1" duration="2150" mode="easeIn"/>
 </storyboard>
 </image>
 	  
